@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "name": "Launch Python Program",
+      "program": "${workspaceFolder}/${input:pythonFile}",
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "pythonFile",
+      "type": "pickString",
+      "description": "Select the Python file to debug",
+      "options": [
+        "core.py",
+        "generate_readme.py",
+        "hackingtool.py",
+        "tools/anonsurf.py",
+        "tools/ddos.py",
+        "tools/exploit_frameworks.py",
+        "tools/forensic_tools.py",
+        "tools/information_gathering_tools.py",
+        "tools/other_tools.py",
+        "tools/payload_creator.py",
+        "tools/phising_attack.py",
+        "tools/post_exploitation.py",
+        "tools/remote_administration.py",
+        "tools/reverse_engineering.py",
+        "tools/sql_tools.py",
+        "tools/steganography.py",
+        "tools/tool_manager.py",
+        "tools/webattack.py",
+        "tools/wireless_attack_tools.py",
+        "tools/wordlist_generator.py",
+        "tools/xss_attack.py",
+        "tools/others/android_attack.py",
+        "tools/others/email_verifier.py",
+        "tools/others/hash_crack.py",
+        "tools/others/homograph_attacks.py",
+        "tools/others/mix_tools.py",
+        "tools/others/payload_injection.py",
+        "tools/others/socialmedia_finder.py",
+        "tools/others/socialmedia.py",
+        "tools/others/web_crawling.py",
+        "tools/others/wifi_jamming.py"
+      ]
+    }
+  ]
+}
